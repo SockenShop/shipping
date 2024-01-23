@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE_SHIPPING = "shipping"
         DOCKER_TAG = "${BUILD_ID}"
         BUILD_AGENT  = ""
-        NAMESPACE = "SockenShop"
+        NAMESPACE = "sock-shop"
     }
 agent any
     stages {
